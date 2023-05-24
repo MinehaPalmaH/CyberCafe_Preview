@@ -1,5 +1,5 @@
 import 'package:device_preview/device_preview.dart';
-import 'package:ecommerce/pages/home_page.dart';
+import 'package:ecommerce/paginas/inicio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
       useInheritedMediaQuery: true,
       builder: DevicePreview.appBuilder,
       locale: DevicePreview.locale(context),
-      title: 'health app',
+      title: 'CyberCafe App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xff5a73d8),
+        colorSchemeSeed: const Color(0xff14520c),
         textTheme: GoogleFonts.plusJakartaSansTextTheme(
           Theme.of(context).textTheme,
         ),
